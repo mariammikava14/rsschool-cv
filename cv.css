@@ -1,0 +1,50 @@
+*{
+    body {background-color: rgb(126, 16, 44);
+    }
+    
+    .name {
+        border-style: dashed;
+        width: fit-content;
+        margin: 20px auto 0;
+        color: rgb(215, 169, 168);
+    }
+    
+    .aboutme{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(215, 169, 168);
+    padding-top: 1em;
+    }
+    button { 
+        background-color: rgb(215, 169, 168);
+        color: rgb(220, 222, 223);
+        border-radius: 2px ;
+        height: 40px;
+        width: 100px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: background-color 1s;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    button:hover { 
+
+        background-color: rgb(220, 222, 223);
+        color:rgb(126, 16, 44);
+        
+    }
+    .buttons{
+        text-align: center;
+    }
+    .list {
+        display: flex;
+        gap: 20px;
+    }
+
+}
